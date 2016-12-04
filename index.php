@@ -37,7 +37,7 @@ if ( $days >= 7 ) {
 <html>
 <head>
     <title>Cadillac Connectors Website</title>
-    <!--TODO: Add <icon> tag-->
+    <link rel="SHORTCUT ICON" href="resources/icon.ico">
     <link rel="stylesheet" type="text/css" href="global.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="scripts.js"></script>
