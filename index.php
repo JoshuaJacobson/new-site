@@ -8,11 +8,13 @@ $mobile = $_GET["mobile"];
 $w = $_GET["w"];
 $h = $_GET["h"];
 if ($mobile == "true") {
-    $scale = "inherit";
-    $br = "<hr />";
+    $scale = "100%";
+    $display = "";
+    $end_display = "";
 } else {
     $scale = "25%";
-    $br = "";
+    $display = "<div id=\"Container\" style=\"display:table; width: 100%\">";
+    $end_display = "</div>";
 }
 $secs = 1483803000 - time();
 if ( $secs >= 60 ) {
@@ -59,9 +61,10 @@ if ( $days >= 7 ) {
         </p>
         <noscript>In order for the countdown to work, you need to enable javascript.</noscript>
     <hr />
-    <div id="Container">
+    <?php echo $display; ?>
         <div id="Students" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Students</h2>
+            <button id="Students_button" class="Navigation_button" onclick="redirect('students')">STUDENT AREA</button>
         </div>
         <div id="Parents" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Parents</h2>
@@ -72,7 +75,6 @@ if ( $days >= 7 ) {
         <div id="Outreach" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Outreach</h2>
         </div>
-        <?php echo $br; ?>
-    </div>
+    <?php echo $end_display; ?>
 </body>
 </html>

@@ -2,7 +2,6 @@
  * Created by josh on 11/25/16.
  */
 function countdownInit(weeks, days, hours, mins, secs) {
-    console.log("Initializing Countdown");
     setInterval(function () {
         secs_text = secs.innerHTML;
         mins_text = mins.innerHTML;
@@ -74,4 +73,8 @@ function indexLoader() {
     var mins = document.getElementById("mins");
     var secs = document.getElementById("secs");
     countdownInit(weeks, days, hours, mins, secs);
+}
+
+function redirect(location) {
+    window.open(location + "/",'_self');
 }

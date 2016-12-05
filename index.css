@@ -1,17 +1,25 @@
-#Container {
-    display: table;
-    width: 100%;
-    background-color: lightblue;
-    
+h2 {
+    font-size: 3vw;
 }
+
 .Quarter {
     display: table-cell;
     background: url('resources/cogwheels_gold.png');
     background-repeat: repeat-y;
     background-size: 100% auto;
-    height: 400px;
+    background-color: lightblue;
 }
 
 .Countdown {
     font-size: 400%;
+}
+
+.navigation_button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #00ff00;
+    border-radius: 20px;
+    width: 75%;
+    font-size: 2vw;
+    cursor: hand;
 }
