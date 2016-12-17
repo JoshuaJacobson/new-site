@@ -9,9 +9,14 @@
     background: url('resources/cogwheels_gold.png');
     background-repeat: repeat-y;
     background-size: 100% auto;
-    height: 400px;
 }
 
 .Countdown {
     font-size: 400%;
+    width: 100%;
+    margin-left: 0%;
+}
+p {
+    margin-left: 25%;
+    width: 50%;
 }

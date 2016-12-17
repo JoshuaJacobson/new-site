@@ -62,15 +62,33 @@ if ( $days >= 7 ) {
     <div id="Container">
         <div id="Students" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Students</h2>
+            <p>
+                A place for current members of the team and others who are interested
+                in becoming a part of the team.
+                <br>
+                Access various resources and view the calendar of team events.
+            </p>
         </div>
         <div id="Parents" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Parents</h2>
+            <p>
+                Location of various parent involvement resources, such as the calendar
+                or student involvement reports.
+            </p>
         </div>
         <div id="Community" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Community</h2>
+            <p>
+                Are you a local business who sponsors the cadillac connectors? Would
+                you like to? All information about our sponsors can be found here.
+            </p>
         </div>
         <div id="Outreach" class="Quarter" style="width: <?php echo $scale;?>;">
             <h2>Outreach</h2>
+            <p>
+                The cadillac connectors do our best to help in our community. For any information
+                relationg to our involvement, check here.
+            </p>
         </div>
         <?php echo $br; ?>
     </div>
