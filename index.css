@@ -1,7 +1,7 @@
 #Container {
     display: table;
     width: 100%;
-    background-color: lightblue;
+    background-color: #add8e6; /*html lightblue*/
 
 }
 .Quarter {
@@ -28,4 +28,13 @@ footer {
 }
 #Information {
     display: table-row;
+}
+.QuarterButton {
+    color: black;
+    text-decoration: none;
+    background-color: #add8d6; /*html lightblue - #000010*/
+    border: 2px white solid;
+    border-radius: 25px;
+    font-size: 200%;
+    padding: 0 25px 0 25px;
 }
