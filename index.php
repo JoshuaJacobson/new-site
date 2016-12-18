@@ -43,7 +43,7 @@ if ( $days >= 7 ) {
     <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
-<body onload="indexLoader()" style="background-color: gray; margin: 0px; padding: 0px; text-align: center;">
+<body lang="en-US" onload="indexLoader()" style="background-color: gray; margin: 0px; padding: 0px; text-align: center;">
         <h1 id="Logo_wrapper">
             <img src="resources/connectors_lightgreen.png" id="Logo">
             Home of the FRC Team 5086
@@ -87,19 +87,21 @@ if ( $days >= 7 ) {
             <h2>Outreach</h2>
             <p>
                 The cadillac connectors do our best to help in our community. For any information
-                relationg to our involvement, check here.
+                relating to our involvement, check here.
             </p>
         </div>
         <?php echo $br; ?>
     </div>
+    <hr>
     <footer>
-        <h2>Our social media</h2>
+        <h2><i>Connect</i> with us</h2>
         <p>
-            <img src="resources/media/twitter.png" onclick="media('twitter')">
-            <img src="resources/media/facebook.png" onclick="media('facebook')">
-            <img src="resources/media/instagram.png" onclick="media('instagram')">
-            <img src="resources/media/pintrest.png" onclick="media('pintrest')">
-            <img src="resources/media/reddit.png" onclick="media('reddit')">
+            <img src="resources/media/twitter.png" onclick="twitter()" alt="Twitter" title="Cadillac Connectors Twitter" class="mediaButton">
+            <img src="resources/media/facebook.png" onclick="facebook()" alt="Facebook" title="Cadillac Connectors Facebook" class="mediaButton">
+            <img src="resources/media/instagram.png" onclick="instagram()" alt="Instagram" title="Cadillac Connectors Instagram" class="mediaButton">
+            <img src="resources/media/pintrest.png" onclick="pinterest()" alt="Pinterest" title="Cadillac Connectors Pinterest" class="mediaButton">
+            <img src="resources/media/reddit.png" onclick="reddit()" alt="Reddit" title="Cadillac Connectors Subreddit" class="mediaButton">
+            <img src="resources/media/youtube.png" onclick="youtube()" alt="Youtube" title="Cadillac Connectors Youtube Channel" class="mediaButton">
         </p>
     </footer>
 </body>
