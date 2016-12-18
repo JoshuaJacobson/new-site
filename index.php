@@ -92,5 +92,15 @@ if ( $days >= 7 ) {
         </div>
         <?php echo $br; ?>
     </div>
+    <footer>
+        <h2>Our social media</h2>
+        <p>
+            <img src="resources/media/twitter.png" onclick="media('twitter')">
+            <img src="resources/media/facebook.png" onclick="media('facebook')">
+            <img src="resources/media/instagram.png" onclick="media('instagram')">
+            <img src="resources/media/pintrest.png" onclick="media('pintrest')">
+            <img src="resources/media/reddit.png" onclick="media('reddit')">
+        </p>
+    </footer>
 </body>
 </html>
