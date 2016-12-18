@@ -7,7 +7,7 @@
 .Quarter {
     display: table-cell;
     background: url('resources/cogwheels_gold.png');
-    background-repeat: repeat round;
+    background-repeat: repeat-y;
     background-size: 100% auto;
 }
 
@@ -25,9 +25,6 @@ footer {
 }
 .QuarterImage {
     width: 50%;
-}
-#Images {
-    display: table-row;
 }
 #Information {
     display: table-row;
