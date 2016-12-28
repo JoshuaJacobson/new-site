@@ -14,5 +14,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="pinit" level="application" />
+    <orderEntry type="library" name="widgets" level="application" />
   </component>
 </module>

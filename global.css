@@ -3,8 +3,12 @@
     height: auto;
     cursor: hand;
 }
-
-
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 h2 {
     color: #00ff00;
 
@@ -19,5 +23,16 @@ h2 {
     font-size: 400%;
 }
 hr {
-
+    border: 0;
+    background: #00ffff;
+    height: 2em;
+}
+hr.smallHr {
+    height: .5em;
+}
+p.normalSized {
+    font-size: medium;
+}
+footer {
+    color: #000;
 }

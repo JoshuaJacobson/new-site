@@ -32,21 +32,21 @@ if ( $days >= 7 ) {
     $days = $days % 7;
 }
 
-
+require 'resources.php';
 ?>
-<html>
+<html lang="en-US">
 <head>
     <title>Cadillac Connectors Website</title>
-    <!--TODO: Add <icon> tag-->
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="global.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
-<body lang="en-US" onload="indexLoader()" style="background-color: gray; margin: 0px; padding: 0px; text-align: center;">
+<body onload="indexLoader()">
         <h1 id="Logo_wrapper">
             <img src="resources/connectors_lightgreen.png" id="Logo">
-            Home of the FRC Team 5086
+            Home of FRC Team 5086
         </h1>
     <hr />
         <h2 id="Countdown" class="Countdown">Countdown to FIRST Steamworks Kickoff</h2>
@@ -114,17 +114,8 @@ if ( $days >= 7 ) {
         </div>
         <?php echo $br; ?>
     </div>
-    <hr>
-    <footer>
-        <h2><i>Connect</i> with us</h2>
-        <p>
-            <img src="resources/media/twitter.png" onclick="twitter()" alt="Twitter" title="Cadillac Connectors Twitter" class="mediaButton">
-            <img src="resources/media/facebook.png" onclick="facebook()" alt="Facebook" title="Cadillac Connectors Facebook" class="mediaButton">
-            <img src="resources/media/instagram.png" onclick="instagram()" alt="Instagram" title="Cadillac Connectors Instagram" class="mediaButton">
-            <img src="resources/media/pintrest.png" onclick="pinterest()" alt="Pinterest" title="Cadillac Connectors Pinterest" class="mediaButton">
-            <img src="resources/media/reddit.png" onclick="reddit()" alt="Reddit" title="Cadillac Connectors Subreddit" class="mediaButton">
-            <img src="resources/media/youtube.png" onclick="youtube()" alt="Youtube" title="Cadillac Connectors Youtube Channel" class="mediaButton">
-        </p>
-    </footer>
+    <?php
+    resources::footer();
+    ?>
 </body>
 </html>
