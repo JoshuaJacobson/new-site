@@ -94,6 +94,7 @@ require 'resources.php';
                     Are you a local business who sponsors the cadillac connectors? Would
                     you like to? All information about our sponsors can be found here.
                 </p>
+                <br>
                 <img src="resources/pictures/community.jpg" title="Connectors cheer on their team" alt="Connectors in the stands" class="QuarterImage">
                 <br>
                 <br>
@@ -105,6 +106,7 @@ require 'resources.php';
                     The cadillac connectors do our best to help in our community. For any information
                     relating to our involvement, check here.
                 </p>
+                <br>
                 <br>
                 <img src="resources/pictures/outreach.jpg" title="Connectors win an award" alt="Team winning award" class="QuarterImage">
                 <br>

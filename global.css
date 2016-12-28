@@ -13,7 +13,9 @@ h2 {
     color: #00ff00;
 
 }
-
+#red {
+    color: #f00;
+}
 #Logo {
     width: 100%;
 }
@@ -35,4 +37,10 @@ p.normalSized {
 }
 footer {
     color: #000;
+}
+a {
+    color: #0f0;
+}
+a:visited {
+    color: #0ff;
 }
