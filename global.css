@@ -44,3 +44,13 @@ a {
 a:visited {
     color: #0ff;
 }
+#content {
+    width: 50%;
+    background: #707070;
+    margin-left: 25%;
+    font-size: 200%;
+}
+#content > p {
+    text-align: left;
+    text-indent: 2em;
+}
