@@ -31,6 +31,10 @@ if ( $days >= 7 ) {
     $weeks = (int)($days / 7);
     $days = $days % 7;
 }
+$week = "Weeks";
+if ($weeks = 1) {
+    $week = "Week";
+}
 
 require 'resources.php';
 ?>
@@ -51,7 +55,7 @@ require 'resources.php';
     <hr />
         <h2 id="Countdown" class="Countdown">Countdown to FIRST Steamworks Kickoff</h2>
         <p id="pCountdown" class="Countdown">
-            <span id="weeks"><?php echo $weeks;?></span> Weeks,
+            <span id="weeks"><?php echo $weeks;?></span> <?php echo $week;?>,
             <span id="days"><?php echo $days;?></span> Days,
             <span id="hours"><?php echo $hours;?></span> Hours,
             <span id="mins"><?php echo $mins;?></span> Minutes,

@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="global.css">
     <link rel="stylesheet" type="text/css" href="contact.css">
     <script type="text/javascript" src="scripts.js"></script>
-    <!--<script type="text/javascript" src="contact.js"></script>-->
+    <script type="text/javascript" src="contact.js"></script>
 </head>
 <body>
 <h1 id="Logo_wrapper">
@@ -23,17 +23,17 @@
     Our team has events going on at all times throughout the year, so don't hesitate to reach out even if you can't be a part of our January - April standard season.
     If you would like a quick response, please fill out the form below, otherwise you can email us at <a href="mailto:frcteam5086@gmail.com">frcteam5086@gmail.com</a>
 </p>
-<form id="contactus">
+<form id="contactus" onsubmit="submitContactForm(); return false;">
     <fieldset>
         <legend>Your contact info:</legend>
         <label>
             Name:
-            <input type="text" name="name" maxlength="64" required>
+            <input id="name" type="text" name="name" maxlength="64" required>
         </label>
         <br>
         <label>
             Email:
-            <input type="text" name="email" maxlength="64" required>
+            <input id="email" type="text" name="email" maxlength="64" required>
         </label>
         <br>
         <label>
@@ -81,6 +81,11 @@
             Other
         </label>
     </fieldset>
+    <fieldset>
+        <legend>Comments / Notes:</legend>
+        <textarea rows="5" cols="45" id="comments"></textarea>
+    </fieldset>
+    <button id="submit_button" onclick="submitContactForm()">Submit!</button>
 </form>
 </body>
 </html>
