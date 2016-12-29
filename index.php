@@ -90,7 +90,7 @@ require 'resources.php';
                 <img src="resources/pictures/parents.jpg" title="Members of the connectors working on the robot" alt="2 Parents" class="QuarterImage">
                 <br>
                 <br>
-                <a href="students" class="QuarterButton">Learn More...</a>
+                <a href="parents" class="QuarterButton">Learn More...</a>
             </div>
             <div id="Community" class="Quarter" style="width: <?php echo $scale;?>;">
                 <h2>Community</h2>
@@ -102,7 +102,7 @@ require 'resources.php';
                 <img src="resources/pictures/community.jpg" title="Connectors cheer on their team" alt="Connectors in the stands" class="QuarterImage">
                 <br>
                 <br>
-                <a href="students" class="QuarterButton">Learn More...</a>
+                <a href="community" class="QuarterButton">Learn More...</a>
             </div>
             <div id="Outreach" class="Quarter" style="width: <?php echo $scale;?>;">
                 <h2>Outreach</h2>
@@ -115,7 +115,7 @@ require 'resources.php';
                 <img src="resources/pictures/outreach.jpg" title="Connectors win an award" alt="Team winning award" class="QuarterImage">
                 <br>
                 <br>
-                <a href="students" class="QuarterButton">Learn More...</a>
+                <a href="outreach" class="QuarterButton">Learn More...</a>
             </div>
         </div>
         <?php echo $br; ?>
