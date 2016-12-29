@@ -9,3 +9,9 @@
     margin-right: 2em;
     background: #888;
 }
+#head, footer {
+    background-color: gray;
+}
+body {
+    background: url("/resources/pipes.png") repeat;
+}

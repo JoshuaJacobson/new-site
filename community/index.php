@@ -11,11 +11,15 @@ require "../resources.php";
     <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-<h1 id="Logo_wrapper">
-    <img src="../resources/connectors_lightgreen.png" id="Logo">
-    Connectors + Community
-</h1>
-<hr>
+
+<div id="head">
+    <h1 id="Logo_wrapper">
+        <img src="../resources/connectors_lightgreen.png" id="Logo">
+        Connectors + Community
+    </h1>
+    <hr>
+</div>
+
 <div id="content">
     <h2>Cadillac News</h2>
     <figure>
